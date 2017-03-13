@@ -1,0 +1,10 @@
+C:\Users\cperez\Documents\Visual Studio 2015\Projects\BinarySearch\BinarySearch\bin\Debug\BinarySearch.exe.config
+C:\Users\cperez\Documents\Visual Studio 2015\Projects\BinarySearch\BinarySearch\bin\Debug\BinarySearch.exe
+C:\Users\cperez\Documents\Visual Studio 2015\Projects\BinarySearch\BinarySearch\bin\Debug\BinarySearch.pdb
+C:\Users\cperez\Documents\Visual Studio 2015\Projects\BinarySearch\BinarySearch\obj\Debug\BinarySearch.exe
+C:\Users\cperez\Documents\Visual Studio 2015\Projects\BinarySearch\BinarySearch\obj\Debug\BinarySearch.pdb
+D:\Algorithms\BinarySearch\bin\Debug\BinarySearch.exe.config
+D:\Algorithms\BinarySearch\obj\Debug\BinarySearch.exe
+D:\Algorithms\BinarySearch\obj\Debug\BinarySearch.pdb
+D:\Algorithms\BinarySearch\bin\Debug\BinarySearch.exe
+D:\Algorithms\BinarySearch\bin\Debug\BinarySearch.pdb

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C53F34C-8748-4DD9-920F-0B3A41EE43F9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BinarySearch</RootNamespace>
+    <AssemblyName>BinarySearch</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tree\Node.cs" />
+    <Compile Include="Tree\Tree.cs" />
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="TriangularSearch.cs" />
+    <Compile Include="WeightCapacity.cs" />
+    <Compile Include="LinkList\Program.AddLinkedListNode.cs" />
+    <Compile Include="Arrays\Program.Max.cs" />
+    <Compile Include="Arrays\Program.IsSort.cs" />
+    <Compile Include="Arrays\Program.AddTwoArrays.cs" />
+    <Compile Include="Numbers\Program.InnerProduct.cs" />
+    <Compile Include="Numbers\Program.Mean.cs" />
+    <Compile Include="Numbers\Program.OuterProduct.cs" />
+    <Compile Include="Arrays\Program.PerfectShuffle.cs" />
+    <Compile Include="Numbers\Program.ReverseNumber.cs" />
+    <Compile Include="Dictionary\Program.Tally.cs" />
+    <Compile Include="Search\Program.BinarySearchIterative.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Queue\Program.Dequeue.cs" />
+    <Compile Include="Arrays\Program.Distinct.cs" />
+    <Compile Include="LinkList\Program.DuplicateLinkList.cs" />
+    <Compile Include="Arrays\Program.Duplicates.cs" />
+    <Compile Include="Queue\Program.Enqueue.cs" />
+    <Compile Include="Numbers\Program.GetFactorial.cs" />
+    <Compile Include="Program.Hanoi.cs" />
+    <Compile Include="Numbers\Program.IsPrime.cs" />
+    <Compile Include="LinkList\Program.KthToLast.cs" />
+    <Compile Include="Search\Program.LinearSearch.cs" />
+    <Compile Include="Arrays\Program.Min.cs" />
+    <Compile Include="Numbers\Program.Pow.cs" />
+    <Compile Include="LinkList\Program.RemoveDuplicates.cs" />
+    <Compile Include="LinkList\Program.RemoveLinkedList.cs" />
+    <Compile Include="LinkList\Program.ReverseLinkedList.cs" />
+    <Compile Include="Numbers\Program.ReverseNumberString.cs" />
+    <Compile Include="Queue\Program.ReverseQ.cs" />
+    <Compile Include="Stack\Program.ReverseStack.cs" />
+    <Compile Include="Strings\Program.ReverseString.cs" />
+    <Compile Include="Stack\Program.SearchStack.cs" />
+    <Compile Include="Arrays\Program.SortAsc.cs" />
+    <Compile Include="Arrays\Program.SortDesc.cs" />
+    <Compile Include="Stack\Program.StackClear.cs" />
+    <Compile Include="Stack\Program.StackPop.cs" />
+    <Compile Include="Stack\Program.StackPush.cs" />
+    <Compile Include="Stack\Program.StackQueues.cs" />
+    <Compile Include="Numbers\Program.SumArray.cs" />
+    <Compile Include="Numbers\Program.ToBinary.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

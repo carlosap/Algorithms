@@ -1,0 +1,11 @@
+D:\Algorithms\BinarySearch\bin\Debug\BinarySearch.exe.config
+D:\Algorithms\BinarySearch\bin\Debug\BinarySearch.exe
+D:\Algorithms\BinarySearch\bin\Debug\BinarySearch.pdb
+D:\Algorithms\BinarySearch\obj\Debug\BinarySearch.exe
+D:\Algorithms\BinarySearch\obj\Debug\BinarySearch.pdb
+D:\Algorithms\Algorithms\bin\Debug\BinarySearch.exe.config
+D:\Algorithms\Algorithms\bin\Debug\BinarySearch.exe
+D:\Algorithms\Algorithms\bin\Debug\BinarySearch.pdb
+D:\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+D:\Algorithms\Algorithms\obj\Debug\BinarySearch.exe
+D:\Algorithms\Algorithms\obj\Debug\BinarySearch.pdb
