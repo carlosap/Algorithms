@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Recursive\Program.CopyFolder.cs" />
     <Compile Include="Tree\Node.cs" />
     <Compile Include="Tree\Tree.cs" />
     <Compile Include="Enumerations.cs" />
@@ -66,7 +67,7 @@
     <Compile Include="Arrays\Program.Duplicates.cs" />
     <Compile Include="Queue\Program.Enqueue.cs" />
     <Compile Include="Numbers\Program.GetFactorial.cs" />
-    <Compile Include="Program.Hanoi.cs" />
+    <Compile Include="Recursive\Program.Hanoi.cs" />
     <Compile Include="Numbers\Program.IsPrime.cs" />
     <Compile Include="LinkList\Program.KthToLast.cs" />
     <Compile Include="Search\Program.LinearSearch.cs" />
