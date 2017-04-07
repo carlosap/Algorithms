@@ -8,3 +8,4 @@ D:\Algorithms\Algorithms\bin\Debug\BinarySearch.exe
 D:\Algorithms\Algorithms\bin\Debug\BinarySearch.pdb
 D:\Algorithms\Algorithms\obj\Debug\BinarySearch.exe
 D:\Algorithms\Algorithms\obj\Debug\BinarySearch.pdb
+D:\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
