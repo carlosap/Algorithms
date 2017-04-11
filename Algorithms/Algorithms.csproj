@@ -46,8 +46,11 @@
     <Compile Include="Numbers\IsDivisibleByTwo.cs" />
     <Compile Include="Numbers\Program.FactorsOfNumber.cs" />
     <Compile Include="Numbers\Program.GetRemainder.cs" />
+    <Compile Include="Numbers\Program.CheckNums.cs" />
     <Compile Include="Recursive\Program.CopyFolder.cs" />
     <Compile Include="Strings\Program.PasswordCheck.cs" />
+    <Compile Include="Strings\Program.LongestWord.cs" />
+    <Compile Include="Strings\Program.Symbols.cs" />
     <Compile Include="Strings\Program.WordCount.cs" />
     <Compile Include="Strings\Program.RemoveDuplicateCharString.cs" />
     <Compile Include="Tree\Node.cs" />

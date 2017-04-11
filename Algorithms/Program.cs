@@ -8,7 +8,7 @@ namespace Algorithms
         static void Main(string[] args)
         {
             //CopyFolder(@"c:\code", @"G:\MadMobile\code", "node_modules,bin,.git");
-            var test = GetRemainder(5, 3);
+            var test = LongestWord("123456789 98765432");
             Console.ReadLine();
 
         }
