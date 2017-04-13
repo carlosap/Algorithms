@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Numbers\Program.AlphabetSoup.cs" />
+    <Compile Include="Numbers\Program.TimeConvert.cs" />
     <Compile Include="Numbers\IsDivisibleByTwo.cs" />
     <Compile Include="Numbers\Program.FactorsOfNumber.cs" />
     <Compile Include="Numbers\Program.GetRemainder.cs" />
