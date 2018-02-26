@@ -7,8 +7,7 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            //CopyFolder(@"c:\code", @"G:\MadMobile\code", "node_modules,bin,.git");
-            var test = AlphabetSoup("hello");
+            Console.WriteLine(IsUnique("helo"));
             Console.ReadLine();
 
         }

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\Program.IsUnique.cs" />
     <Compile Include="Numbers\Program.AlphabetSoup.cs" />
     <Compile Include="Numbers\Program.TimeConvert.cs" />
     <Compile Include="Numbers\IsDivisibleByTwo.cs" />
