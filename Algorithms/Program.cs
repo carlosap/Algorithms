@@ -7,7 +7,7 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(IsUnique("helo"));
+            Console.WriteLine(PermutationCheck("god", "dog"));
             Console.ReadLine();
 
         }

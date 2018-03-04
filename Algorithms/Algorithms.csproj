@@ -53,6 +53,7 @@
     <Compile Include="Recursive\Program.CopyFolder.cs" />
     <Compile Include="Strings\Program.PasswordCheck.cs" />
     <Compile Include="Strings\Program.LongestWord.cs" />
+    <Compile Include="Strings\Program.PermutationCheck.cs" />
     <Compile Include="Strings\Program.Symbols.cs" />
     <Compile Include="Strings\Program.WordCount.cs" />
     <Compile Include="Strings\Program.RemoveDuplicateCharString.cs" />
