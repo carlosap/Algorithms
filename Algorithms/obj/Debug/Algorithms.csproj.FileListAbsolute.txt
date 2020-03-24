@@ -16,3 +16,10 @@ C:\code\src\github.com\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveA
 C:\code\src\github.com\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
 C:\code\src\github.com\Algorithms\Algorithms\obj\Debug\BinarySearch.exe
 C:\code\src\github.com\Algorithms\Algorithms\obj\Debug\BinarySearch.pdb
+C:\Users\perez\source\repos\github.com\algorithms\Algorithms\bin\Debug\BinarySearch.exe.config
+C:\Users\perez\source\repos\github.com\algorithms\Algorithms\bin\Debug\BinarySearch.exe
+C:\Users\perez\source\repos\github.com\algorithms\Algorithms\bin\Debug\BinarySearch.pdb
+C:\Users\perez\source\repos\github.com\algorithms\Algorithms\obj\Debug\Algorithms.csprojAssemblyReference.cache
+C:\Users\perez\source\repos\github.com\algorithms\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\perez\source\repos\github.com\algorithms\Algorithms\obj\Debug\BinarySearch.exe
+C:\Users\perez\source\repos\github.com\algorithms\Algorithms\obj\Debug\BinarySearch.pdb
