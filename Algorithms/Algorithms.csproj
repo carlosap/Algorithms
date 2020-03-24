@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BinarySearch</RootNamespace>
     <AssemblyName>BinarySearch</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,65 +44,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arrays\Program.IsUnique.cs" />
-    <Compile Include="Numbers\Program.AlphabetSoup.cs" />
-    <Compile Include="Numbers\Program.TimeConvert.cs" />
+    <Compile Include="Arrays\IsUnique.cs" />
+    <Compile Include="Interview Questions\Easy\TwoSum\TwoSum.cs" />
+    <Compile Include="Numbers\AlphabetSoup.cs" />
+    <Compile Include="Numbers\TimeConvert.cs" />
     <Compile Include="Numbers\IsDivisibleByTwo.cs" />
-    <Compile Include="Numbers\Program.FactorsOfNumber.cs" />
-    <Compile Include="Numbers\Program.GetRemainder.cs" />
-    <Compile Include="Numbers\Program.CheckNums.cs" />
-    <Compile Include="Recursive\Program.CopyFolder.cs" />
-    <Compile Include="Strings\Program.PasswordCheck.cs" />
-    <Compile Include="Strings\Program.LongestWord.cs" />
-    <Compile Include="Strings\Program.PermutationCheck.cs" />
-    <Compile Include="Strings\Program.Symbols.cs" />
-    <Compile Include="Strings\Program.WordCount.cs" />
-    <Compile Include="Strings\Program.RemoveDuplicateCharString.cs" />
+    <Compile Include="Numbers\FactorsOfNumber.cs" />
+    <Compile Include="Numbers\GetRemainder.cs" />
+    <Compile Include="Numbers\CheckNums.cs" />
+    <Compile Include="Recursive\CopyFolder.cs" />
+    <Compile Include="Strings\PasswordCheck.cs" />
+    <Compile Include="Strings\LongestWord.cs" />
+    <Compile Include="Strings\PermutationCheck.cs" />
+    <Compile Include="Strings\Symbols.cs" />
+    <Compile Include="Strings\WordCount.cs" />
+    <Compile Include="Strings\RemoveDuplicateCharString.cs" />
     <Compile Include="Tree\Node.cs" />
     <Compile Include="Tree\Tree.cs" />
-    <Compile Include="Enumerations.cs" />
-    <Compile Include="TriangularSearch.cs" />
-    <Compile Include="WeightCapacity.cs" />
-    <Compile Include="LinkList\Program.AddLinkedListNode.cs" />
-    <Compile Include="Arrays\Program.Max.cs" />
-    <Compile Include="Arrays\Program.IsSort.cs" />
-    <Compile Include="Arrays\Program.AddTwoArrays.cs" />
-    <Compile Include="Numbers\Program.InnerProduct.cs" />
-    <Compile Include="Numbers\Program.Mean.cs" />
-    <Compile Include="Numbers\Program.OuterProduct.cs" />
-    <Compile Include="Arrays\Program.PerfectShuffle.cs" />
-    <Compile Include="Numbers\Program.ReverseNumber.cs" />
-    <Compile Include="Dictionary\Program.Tally.cs" />
-    <Compile Include="Search\Program.BinarySearchIterative.cs" />
+    <Compile Include="Enum\Enumerations.cs" />
+    <Compile Include="Search\TriangularSearch.cs" />
+    <Compile Include="LinkList\AddLinkedListNode.cs" />
+    <Compile Include="Arrays\Max.cs" />
+    <Compile Include="Arrays\IsSort.cs" />
+    <Compile Include="Arrays\AddTwoArrays.cs" />
+    <Compile Include="Numbers\InnerProduct.cs" />
+    <Compile Include="Numbers\Mean.cs" />
+    <Compile Include="Numbers\OuterProduct.cs" />
+    <Compile Include="Arrays\PerfectShuffle.cs" />
+    <Compile Include="Numbers\ReverseNumber.cs" />
+    <Compile Include="Dictionary\Tally.cs" />
+    <Compile Include="Search\BinarySearchIterative.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Queue\Program.Dequeue.cs" />
-    <Compile Include="Arrays\Program.Distinct.cs" />
-    <Compile Include="LinkList\Program.DuplicateLinkList.cs" />
-    <Compile Include="Arrays\Program.Duplicates.cs" />
-    <Compile Include="Queue\Program.Enqueue.cs" />
-    <Compile Include="Numbers\Program.GetFactorial.cs" />
-    <Compile Include="Recursive\Program.Hanoi.cs" />
-    <Compile Include="Numbers\Program.IsPrime.cs" />
-    <Compile Include="LinkList\Program.KthToLast.cs" />
-    <Compile Include="Search\Program.LinearSearch.cs" />
-    <Compile Include="Arrays\Program.Min.cs" />
-    <Compile Include="Numbers\Program.Pow.cs" />
-    <Compile Include="LinkList\Program.RemoveDuplicates.cs" />
-    <Compile Include="LinkList\Program.RemoveLinkedList.cs" />
-    <Compile Include="LinkList\Program.ReverseLinkedList.cs" />
-    <Compile Include="Numbers\Program.ReverseNumberString.cs" />
-    <Compile Include="Queue\Program.ReverseQ.cs" />
-    <Compile Include="Stack\Program.ReverseStack.cs" />
-    <Compile Include="Strings\Program.ReverseString.cs" />
-    <Compile Include="Stack\Program.SearchStack.cs" />
-    <Compile Include="Arrays\Program.SortAsc.cs" />
-    <Compile Include="Arrays\Program.SortDesc.cs" />
-    <Compile Include="Stack\Program.StackClear.cs" />
-    <Compile Include="Stack\Program.StackPop.cs" />
-    <Compile Include="Stack\Program.StackPush.cs" />
-    <Compile Include="Stack\Program.StackQueues.cs" />
-    <Compile Include="Numbers\Program.SumArray.cs" />
-    <Compile Include="Numbers\Program.ToBinary.cs" />
+    <Compile Include="Queue\Dequeue.cs" />
+    <Compile Include="Arrays\Distinct.cs" />
+    <Compile Include="LinkList\DuplicateLinkList.cs" />
+    <Compile Include="Arrays\Duplicates.cs" />
+    <Compile Include="Queue\Enqueue.cs" />
+    <Compile Include="Numbers\GetFactorial.cs" />
+    <Compile Include="Recursive\Hanoi.cs" />
+    <Compile Include="Numbers\IsPrime.cs" />
+    <Compile Include="LinkList\KthToLast.cs" />
+    <Compile Include="Search\LinearSearch.cs" />
+    <Compile Include="Arrays\Min.cs" />
+    <Compile Include="Numbers\Pow.cs" />
+    <Compile Include="LinkList\RemoveDuplicates.cs" />
+    <Compile Include="LinkList\RemoveLinkedList.cs" />
+    <Compile Include="LinkList\ReverseLinkedList.cs" />
+    <Compile Include="Numbers\ReverseNumberString.cs" />
+    <Compile Include="Queue\ReverseQ.cs" />
+    <Compile Include="Stack\ReverseStack.cs" />
+    <Compile Include="Strings\ReverseString.cs" />
+    <Compile Include="Stack\SearchStack.cs" />
+    <Compile Include="Arrays\SortAsc.cs" />
+    <Compile Include="Arrays\SortDesc.cs" />
+    <Compile Include="Stack\StackClear.cs" />
+    <Compile Include="Stack\StackPop.cs" />
+    <Compile Include="Stack\StackPush.cs" />
+    <Compile Include="Stack\StackQueues.cs" />
+    <Compile Include="Numbers\SumArray.cs" />
+    <Compile Include="Numbers\ToBinary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
